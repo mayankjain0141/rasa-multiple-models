@@ -9,32 +9,32 @@ This is a trial app for multiple rasa chatbots on a single Flask server through 
 Clone the project
 
 ```bash
-  git clone https://github.com/mayankjain0141/rasa-multiple-models.git
+    git clone https://github.com/mayankjain0141/rasa-multiple-models.git
 ```
 
 Create a virtual environment
 ```
-python3 -m venv name
+    python3 -m venv name
 ```
 Activate the virtual environment
 ```
-source name/bin/activate
+    source name/bin/activate
 ```
 Go to the project directory
 
 ```bash
-  cd rasa-multiple-models
+    cd rasa-multiple-models
 ```
 Install dependencies
 
 ```bash
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
 
-Start the local server
+Start the local server 
 
 ```bash
-  python3 app_ws.py
+    python3 app_ws.py
 ```
 Open index.html to access the frontend.
   
