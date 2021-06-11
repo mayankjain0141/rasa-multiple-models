@@ -1,0 +1,7 @@
+aiohttp==3.6.2
+flask==1.1.2
+rasa==1.10.1
+rasa-sdk==1.10.1
+
+# Rasa requirements
+gast==0.2.2

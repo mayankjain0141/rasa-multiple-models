@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi Chatterbot</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"></script>
+    <script src="./static/js/webchat.js"></script>
+</head>
+<body>
+
+    <ul class="languagepicker roundborders">
+        <a id="choice_en">
+            <li><img src="./static/images/flag-en.png" height="100" width="200"/>English</li>
+        </a>
+        <a id="choice_es">
+            <li><img src="./static/images/flag-es.png" height="100" width="200"/>Espanol</li>
+        </a>
+    </ul>
+
+
+    <div class="chat-container"></div>
+
+
+
+    <!-- explanation -->
+    <div style="width:600px;display:inline-block;color:#FFF;">
+        <p>
+            Pick your language and chat with our bot!
+        </p>
+    </div>
+
+    <div id="webchat" data-title="Demo bot" data-subtitle="Let's chat!"></div> 
+</body>
+
+</html>

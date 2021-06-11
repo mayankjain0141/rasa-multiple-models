@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    command: ["python", "app.py"]
+  # rasa:
+  #   image: rasa/rasa:1.10.1-full
+  #   ports:
+  #     - 5005:5005
+  #   volumes:
+  #     - ./:/app
+  #   command: ["run", "-m", "models", "--enable-api", "--log-file", "out.log"]
